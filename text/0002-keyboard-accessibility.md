@@ -31,7 +31,7 @@ In this case, we have already decided to use vertical arrow keys to focus list i
 
 ## Grids
 
-When a list's layout is 2-dimensional, vertical arrow keys should shift to the next vertical element, while horizontal arrow keys should shift horizontal elements.
+When a list's layout is 2-dimensional, vertical arrow keys should shift focus to the next vertical element, while horizontal arrow keys should shift focus of horizontal elements.
 
 ## Loops
 
@@ -39,11 +39,11 @@ When the first element is focused, going to the previous one should focus the la
 
 # Drawbacks
 
-- Some may feel that using tab to focus a list item is more intuitive due to past experience. We don't support that to provide a consistent way to escape the list quickly.
+Some may feel that using tab to focus a list item is more intuitive due to past experience. We don't support that to provide a consistent way to escape the list quickly.
 
 # Alternatives
 
-There are lots of alternatives, but the point of this RFC is to have a consistent, good way to handle all scenarios for a complex UI.
+There are lots of alternatives, but the point of this RFC is to have a consistent way to handle all scenarios for a complex UI.
 
 # Unresolved questions
 

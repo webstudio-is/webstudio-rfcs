@@ -18,7 +18,7 @@ Another example of a focusable element is a list item: it can be focused even th
 ## Vertical lists of focusable items
 
 Long lists with focusable items are hard to exit if we tab through items. This is why once the first list element is focused, we choose to use arrow keys to navigate focus in the list.
-Tab will focus the next focusable element after the list.
+Tab will focus the next tabbable element after the list.
 
 ## Nested focusable elements
 

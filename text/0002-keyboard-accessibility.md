@@ -12,7 +12,7 @@ We need a keyboard accessibility standard for Webstudio, since global standards 
 
 All interactive elements should be focusable by keyboard. Interactive elements are those that do anything user-facing on mouse or keyboard interactions, like click or enter.
 
-Example: A button or a link should always be focusable, whereas a div that has no interactive usage should never be focusable.
+Example: A button or a link should always be focusable, whereas a div that has no interactive usage not be focusable, unless it is a list item and has focusable elements inside.
 Another example of a focusable element is a list item: it can be focused even though it may not have an action attached.
 
 ## Vertical lists of focusable items

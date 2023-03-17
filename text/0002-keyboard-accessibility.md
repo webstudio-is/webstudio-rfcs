@@ -29,7 +29,7 @@ For consistency with lists, we choose to use arrow keys for all child elements a
 
 In this case, we have already decided to use vertical arrow keys to focus list items. To focus list item focusable child elements, we can now only use horizontal arrow keys.
 
-## Two-dimensional lists
+## Grids
 
 When a list's layout is 2-dimensional, vertical arrow keys should shift to the next vertical element, while horizontal arrow keys should shift horizontal elements.
 

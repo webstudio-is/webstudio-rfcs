@@ -25,7 +25,7 @@ When you have an item that is focusable/interactive and then inside of that item
 We can either let the user tab into the child elements or allow using arrow keys as a secondary mechanism to focus child elements.
 For consistency with lists, we choose to use arrow keys for all child elements and tab for focusing the next tabbable element that comes after the parent.
 
-## Vertical list focusable items with nested focusable elements
+## Vertical list with focusable items with nested focusable elements
 
 In this case, we have already decided to use vertical arrow keys to focus list items. To focus list item focusable child elements, we can now only use horizontal arrow keys.
 

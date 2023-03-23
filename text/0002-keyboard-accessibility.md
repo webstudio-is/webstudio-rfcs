@@ -4,7 +4,7 @@
 
 # Summary
 
-We need a keyboard accessibility standard for Webstudio, since global standards only provide recommendations in many cases, but we need to be consistent.
+A quick summary of accessibility principles we use for Webstudio. Full guide is https://www.w3.org/WAI/ARIA/apg/patterns/
 
 # Detailed design
 

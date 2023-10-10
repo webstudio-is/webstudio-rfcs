@@ -6,8 +6,6 @@
 
 Describes how we use CSS custom properties or CSS variables in the builder.
 
-# Basic example
-
 # Motivation
 
 1. Avoid namespace collisions

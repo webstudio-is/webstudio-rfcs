@@ -18,7 +18,7 @@ By defining a convention and using a TS interface we can solve both problems.
 # Detailed design
 
 1. Avoiding namespace collision is solved by using a naming convention: `--ws-{component}-{var}` where `component` is the component name that is going to render the variable and `var` is the variable namespace.
-2.  We never copy-paste a CSS variable name across modules. When variable needs to be defined outisde of a module, we decided to export a typed function
+2. We never copy-paste a CSS variable name across modules. When variable needs to be defined outisde of a module, we decided to export a typed function
     Example 1:
     ```ts
     export const setAmplitude = (value: number) => ({
